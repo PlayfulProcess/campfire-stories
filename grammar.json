@@ -1,0 +1,68 @@
+{
+  "_grammar_commons": {
+    "license": "CC-BY-SA-4.0",
+    "author": "PlayfulProcess",
+    "source_url": "https://github.com/PlayfulProcess/campfire-stories",
+    "description": "Five-minute bedtime stories for ages 3-7, built from cross-cultural story arcs. Each book pairs two stories from different traditions around a shared theme."
+  },
+  "grammar_type": "custom",
+  "grammar_id": "campfire-stories-001",
+  "title": "The Campfire Stories",
+  "subtitle": "Bedtime stories from around the world",
+  "books": [
+    {
+      "id": "book-01",
+      "title": "When Things Feel Scary",
+      "theme": "Courage and fear",
+      "traditions": ["Akan (Anansi)", "Jātaka (Buddhist)"],
+      "items": [
+        {
+          "id": "story-01a",
+          "title": "Anansi and the Dark Cave",
+          "tradition": "Akan/Ashanti (West Africa)",
+          "skill": "Courage — bravery is not the absence of fear",
+          "refrain": "Small legs, strong heart, one step more in the dark.",
+          "read_time_minutes": 5,
+          "ages": "3-7"
+        },
+        {
+          "id": "story-01b",
+          "title": "The Deer Who Stood Still",
+          "tradition": "Jātaka (Buddhist, South/Southeast Asia)",
+          "skill": "Emotional regulation — pause before reacting",
+          "refrain": "Ears up. Nose out. Breathe before you run.",
+          "read_time_minutes": 5,
+          "ages": "3-7"
+        }
+      ]
+    },
+    {
+      "id": "book-02",
+      "title": "When Someone Needs Help",
+      "theme": "Compassion and sacrifice",
+      "traditions": ["Jātaka (Buddhist)", "Haudenosaunee"],
+      "items": []
+    },
+    {
+      "id": "book-03",
+      "title": "When the World Feels Too Big",
+      "theme": "Finding your place",
+      "traditions": ["Aboriginal Australian", "Japanese"],
+      "items": []
+    },
+    {
+      "id": "book-04",
+      "title": "When Things Aren't Fair",
+      "theme": "Cleverness and justice",
+      "traditions": ["Akan (Anansi)", "1001 Nights"],
+      "items": []
+    },
+    {
+      "id": "book-05",
+      "title": "When You Feel Different",
+      "theme": "Belonging and gifts",
+      "traditions": ["Grimm/European", "Haudenosaunee"],
+      "items": []
+    }
+  ]
+}
