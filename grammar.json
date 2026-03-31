@@ -41,28 +41,104 @@
       "title": "When Someone Needs Help",
       "theme": "Compassion and sacrifice",
       "traditions": ["Jātaka (Buddhist)", "Haudenosaunee"],
-      "items": []
+      "items": [
+        {
+          "id": "story-02a",
+          "title": "The Rabbit in the Moon",
+          "tradition": "Jātaka (Buddhist, pan-Asian)",
+          "skill": "Generosity — giving from scarcity matters as much as giving from abundance",
+          "refrain": "What I have, I give. What I give, I am.",
+          "read_time_minutes": 5,
+          "ages": "3-7"
+        },
+        {
+          "id": "story-02b",
+          "title": "The Girl Who Planted in the Ruins",
+          "tradition": "Haudenosaunee (Iroquois Confederacy)",
+          "skill": "Cooperation — big problems require collective effort",
+          "refrain": "Alone, too heavy. Together, we hold.",
+          "read_time_minutes": 5,
+          "ages": "3-7"
+        }
+      ]
     },
     {
       "id": "book-03",
       "title": "When the World Feels Too Big",
       "theme": "Finding your place",
       "traditions": ["Aboriginal Australian", "Japanese"],
-      "items": []
+      "items": [
+        {
+          "id": "story-03a",
+          "title": "How the River Found Its Way",
+          "tradition": "Aboriginal Australian (Dreamtime creation narratives)",
+          "skill": "Tolerance for uncertainty — trusting the process without knowing the destination",
+          "refrain": "I don't know the way, but I know how to move.",
+          "read_time_minutes": 5,
+          "ages": "3-7"
+        },
+        {
+          "id": "story-03b",
+          "title": "The Tanuki Who Carried Too Much",
+          "tradition": "Japanese (mukashi-banashi folk tales)",
+          "skill": "Boundary-setting — saying no is a form of kindness",
+          "refrain": "Not every load is mine to carry. Not every 'yes' is mine to give.",
+          "read_time_minutes": 5,
+          "ages": "3-7"
+        }
+      ]
     },
     {
       "id": "book-04",
       "title": "When Things Aren't Fair",
       "theme": "Cleverness and justice",
-      "traditions": ["Akan (Anansi)", "1001 Nights"],
-      "items": []
+      "traditions": ["Akan (Anansi)", "1001 Nights (Arabic/Persian)"],
+      "items": [
+        {
+          "id": "story-04a",
+          "title": "Anansi and the Stolen Rain",
+          "tradition": "Akan/Caribbean (Anansi-Tiger cycle)",
+          "skill": "Strategic thinking — unfair systems have structural weaknesses",
+          "refrain": "Can't push the mountain? Go around it. Can't fight the tiger? Outsmart the pot.",
+          "read_time_minutes": 5,
+          "ages": "3-7"
+        },
+        {
+          "id": "story-04b",
+          "title": "The Girl Who Told the King a Story",
+          "tradition": "1001 Nights (Arabic/Persian oral tradition)",
+          "skill": "Emotional processing through narrative — stories heal what arguments cannot",
+          "refrain": "A story ends when the heart opens. Not before.",
+          "read_time_minutes": 5,
+          "ages": "3-7"
+        }
+      ]
     },
     {
       "id": "book-05",
       "title": "When You Feel Different",
       "theme": "Belonging and gifts",
-      "traditions": ["Grimm/European", "Haudenosaunee"],
-      "items": []
+      "traditions": ["Grimm/European (pre-sanitization)", "Haudenosaunee"],
+      "items": [
+        {
+          "id": "story-05a",
+          "title": "The Girl Whose Hair Was Wild",
+          "tradition": "European folk tradition (pre-Grimm oral veillée)",
+          "skill": "Self-acceptance — difference as gift, not deficit",
+          "refrain": "What grows from you is part of you. What's part of you is not a mistake.",
+          "read_time_minutes": 5,
+          "ages": "3-7"
+        },
+        {
+          "id": "story-05b",
+          "title": "The Boy Who Thanked Everything",
+          "tradition": "Haudenosaunee (Thanksgiving Address / Ohèn:ton Karihwatéhkwen)",
+          "skill": "Gratitude as attention — thanking as a practice of noticing and caring",
+          "refrain": "We give thanks, and now our minds are one.",
+          "read_time_minutes": 5,
+          "ages": "3-7"
+        }
+      ]
     }
   ]
 }

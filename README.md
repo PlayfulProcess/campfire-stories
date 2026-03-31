@@ -8,13 +8,13 @@ These stories are designed to be read aloud. They include darkness — because d
 
 ## The Books
 
-| Book | Theme | Traditions |
-|------|-------|------------|
-| **Book 1: When Things Feel Scary** | Courage and fear | Akan (Anansi) + Jātaka (Buddhist) |
-| **Book 2: When Someone Needs Help** | Compassion and sacrifice | Jātaka + Haudenosaunee |
-| **Book 3: When the World Feels Too Big** | Finding your place | Aboriginal Australian + Japanese |
-| **Book 4: When Things Aren't Fair** | Cleverness and justice | Akan (Anansi) + 1001 Nights |
-| **Book 5: When You Feel Different** | Belonging and gifts | Grimm/European + Haudenosaunee |
+| Book | Theme | Stories | Traditions |
+|------|-------|---------|------------|
+| **Book 1: When Things Feel Scary** | Courage and fear | Anansi and the Dark Cave · The Deer Who Stood Still | Akan + Jātaka |
+| **Book 2: When Someone Needs Help** | Compassion and sacrifice | The Rabbit in the Moon · The Girl Who Planted in the Ruins | Jātaka + Haudenosaunee |
+| **Book 3: When the World Feels Too Big** | Finding your place | How the River Found Its Way · The Tanuki Who Carried Too Much | Aboriginal Australian + Japanese |
+| **Book 4: When Things Aren't Fair** | Cleverness and justice | Anansi and the Stolen Rain · The Girl Who Told the King a Story | Akan + 1001 Nights |
+| **Book 5: When You Feel Different** | Belonging and gifts | The Girl Whose Hair Was Wild · The Boy Who Thanked Everything | European folk + Haudenosaunee |
 
 ## Methodology
 
@@ -24,13 +24,21 @@ Every story passes the **Three-Filter Test**:
 2. **Fits the data** — Developmentally appropriate, honors the source tradition
 3. **Compassionate** — Serves the child's growth, darkness has a container
 
+Each story includes read-aloud tips, a three-filter analysis table, and a source tradition note honoring where the story arc comes from.
+
 ## How This Was Made
 
-This book was written using [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) and the methodology described in [Vibe Writing 102](https://recursive.eco). The CLAUDE.md file in this repository teaches Claude the voice, methodology, and constraints. A human author made every creative decision and applied the three-filter test.
+This entire book — 10 stories across 5 books, plus CLAUDE.md, grammar.json, and this README — was written using [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) in **two prompts**.
 
-## Read Online
+The first prompt set up the project using the methodology from [Vibe Writing 102](https://recursive.eco): voice, audience, three-filter test, book plan, and the first two stories. The second prompt wrote the remaining eight stories and finalized everything.
 
-Visit [books.recursive.eco](https://books.recursive.eco/) or read the markdown files directly in the `chapters/` directory.
+The CLAUDE.md file is the key — it teaches Claude the voice ("Fred Rogers meets Hayao Miyazaki"), the methodology (three-filter test), the constraints (CARE Principles, no extraction from sacred traditions), and the structure (world → trouble → refrain → turning point → resolution → warmth). A human author defined every creative decision. Claude Code executed them.
+
+**You can do this too.** Fork this repo, rewrite the CLAUDE.md with your voice and your methodology, and ask Claude Code to write your book. The [Vibe Writing 102 course](https://recursive.eco) walks you through the whole process.
+
+## Read the Stories
+
+Browse the `chapters/` directory — each book is a folder with two markdown files. Read them on GitHub, or clone the repo and read them locally. They're just text.
 
 ## Fork It
 
